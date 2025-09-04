@@ -52,7 +52,7 @@ const Benefits = () => {
       <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
-          title="Master the Music Game with BrandBlitz"
+          title="End-to-End Business Process Outsourcing for Growth"
         />
 
         <div className="flex flex-wrap gap-10 mb-10">

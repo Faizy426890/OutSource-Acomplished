@@ -12,32 +12,32 @@ import {
 } from "./design/Services";
 import Generating from "./Generating";
 import Service from '../assets/services.webp';
+
 const Services = () => {
   return (
     <Section id="how-to-use">
       <div className="container">
         <Heading
-          title="Reach More Fans, Build Your Legacy"
-          text="Expand your fanbase with strategic marketing that helps you grow as an artist and build a lasting legacy."
+          title="Outsource Smarter, Grow Faster"
+          text="Streamline your operations with our tailored BPO solutions, designed to reduce costs, improve efficiency, and help your business scale globally."
         />
 
         <div className="relative">
           <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
             <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto">
-            <img
-  className="w-full h-full object-cover md:object-right filter brightness-[40%]"
-  width={800}
-  alt="Smartest AI"
-  height={730}
-  src={Service}
-/>
-
+              <img
+                className="w-full h-full object-cover md:object-right filter brightness-[40%]"
+                width={800}
+                alt="BPO Services"
+                height={730}
+                src="https://res.cloudinary.com/diml90c1y/image/upload/v1756963949/customer-service-representatives-working-office-1-1920x1080_h8om9y.jpg"
+              />
             </div>
 
             <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h4 className="h4 mb-4">Strategic Approach</h4>
+              <h4 className="h4 mb-4">Strategic Outsourcing</h4>
               <p className="body-2 mb-[3rem] text-n-3">
-              Elevate Your Sound with Expert Music Promotion
+                Empower your business with reliable, scalable, and cost-effective outsourcing solutions.
               </p>
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (
@@ -51,27 +51,24 @@ const Services = () => {
                 ))}
               </ul>
             </div>
-
-            {/* <Generating className="absolute left-4 right-4 bottom-4 border-n-1/10 border lg:left-1/2 lg-right-auto lg:bottom-8 lg:-translate-x-1/2" /> */}
           </div>
 
           <div className="relative z-1 grid gap-5 lg:grid-cols-2">
             <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
               <div className="absolute inset-0">
                 <img
-                  src={Rapper2}
+                  src="https://res.cloudinary.com/diml90c1y/image/upload/v1756964332/india-office-office-workers-people-working-young-crowd-in-office-5207408_urrqso.jpg"
                   className="h-full w-full object-cover"
                   width={630}
                   height={750}
-                  alt="robot"
+                  alt="BPO Team"
                 />
               </div>
 
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
-                <h4 className="h4 mb-4">Digital Marketing</h4>
+                <h4 className="h4 mb-4">Customer Support</h4>
                 <p className="body-2 mb-[3rem] text-n-3">
-                  Enhance your social media platforms using our services&apos;s
-                  and campaigns. Try now!
+                  Delivering 24/7 customer service excellence with multilingual and personalized support.
                 </p>
               </div>
 
@@ -80,9 +77,9 @@ const Services = () => {
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">Music Marketing</h4>
+                <h4 className="h4 mb-4">Back-Office Solutions</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
-                  Helping Artists to take their Music to the Moon.
+                  From data entry to finance and HR, we manage your operations so you can focus on growth.
                 </p>
 
                 <ul className="flex items-center justify-between">
@@ -111,11 +108,11 @@ const Services = () => {
 
               <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
                 <img
-                  src={Rapper1}
+                  src="https://res.cloudinary.com/diml90c1y/image/upload/v1753588978/freepik__the-style-is-candid-image-photography-with-natural__86159_aslgid.png"
                   className="w-full h-full object-cover"
                   width={520}
                   height={400}
-                  alt="Scary robot"
+                  alt="Outsourcing Team"
                 />
 
                 <VideoChatMessage />

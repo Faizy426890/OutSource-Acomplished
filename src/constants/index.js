@@ -27,12 +27,12 @@ import {
   twitter,
   yourlogo,
 } from "../assets"; 
-import Music1 from '../assets/music1.png'; 
+import Music1 from '../assets/company2.png'; 
 import Music2 from '../assets/music2.png'; 
-import Music3 from '../assets/Music3.png'; 
+import Music3 from '../assets/company3.png'; 
 import Music4 from '../assets/yt.webp'; 
 import Music5 from '../assets/Music5.png';  
-import Music6 from '../assets/music6.png'; 
+import Music6 from '../assets/company1.png'; 
 import Insta from '../assets/insta.webp';  
 import Guitar from '../assets/guitar.png';
 import guitar from '../assets/roadmap/guitar.svg'
@@ -51,15 +51,17 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [Music6, Music1, Insta, Music3, Music4];
 
 export const brainwaveServices = [
-  "Artist Development",
-  "Music Promotion",
+  "Customer Support Services",
+  "Accounting and Payroll", 
+  "Website Development", 
+  "HealthCare OutSourcing",
   "Digital Marketing",
 ];
 
 export const brainwaveServicesIcons = [
   Insta,
   recording01,
-  Music4,
+  "https://res.cloudinary.com/diml90c1y/image/upload/v1756965978/github-icon-lg-removebg-preview_rk5z2q.png",
   Music6,
   Music3,
 ];
@@ -101,23 +103,26 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "Expand your music's reach with BrandBlitz, delivering targeted marketing for artists seeking wider audiences";
+  "Optimize your operations with OutSource Accomplished BPO, providing cost-effective outsourcing solutions to improve efficiency, reduce overhead, and drive business growth.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Expand Your Reach",
+    title: "Enhance Efficiency",
     text: collabText,
   },
   {
     id: "1",
-    title: "Boost Your Audience",
+    title: "Reduce Operational Costs",
+    text: "Cut expenses while maintaining high-quality service delivery through reliable outsourcing solutions.",
   },
   {
     id: "2",
-    title: "Grow Your Brand",
+    title: "Focus on Core Growth",
+    text: "Free up your internal teams to concentrate on strategy and expansion while we handle support operations.",
   },
 ];
+
 
 export const collabApps = [
   {
@@ -144,7 +149,7 @@ export const collabApps = [
   {
     id: "3",
     title: "music2",
-    icon: Music2,
+    icon: "https://res.cloudinary.com/diml90c1y/image/upload/v1756965978/github-icon-lg-removebg-preview_rk5z2q.png",
     width: 34,
     height: 35,
   },
@@ -165,14 +170,14 @@ export const collabApps = [
   {
     id: "6",
     title: "Youtube",
-    icon: Music4,
+    icon: "https://res.cloudinary.com/diml90c1y/image/upload/v1756965854/checklist-business-performance-monitoring-concept-600nw-2503514245_tlm5h0.webp",
     width: 26,
     height: 34,
   },
   {
     id: "7",
     title: "soundcloud",
-    icon: Music5,
+    icon: "https://res.cloudinary.com/diml90c1y/image/upload/v1756965690/114-1148515_accounting-icon-png-account-software-icon-png-removebg-preview_lcxpdk.png",
     width: 42,
     height: 55,
   },
@@ -252,16 +257,16 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Amplify Your Audience",
-    text: "Our platform helps artists reach the right fans with targeted marketing strategies designed for maximum impact.",
+    title: "Customer Support Service",
+    text: "Delivering 24/7 multilingual customer support to enhance client satisfaction, improve retention, and build lasting relationships.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Boost Your Music Brand",
-    text: "We create personalized branding strategies to enhance your presence and build a loyal fan base.",
+    title: "HealthCare Outsourcing",
+    text: "Providing secure and reliable healthcare outsourcing solutions, from patient support to medical billing, with full compliance.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -269,16 +274,16 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Optimize Your Exposure",
-    text: "Leverage data-driven insights to increase your music's visibility and connect with more listeners worldwide",
+    title: "Accounting & Payroll",
+    text: "Streamline your finance operations with accurate bookkeeping, payroll management, and compliance-driven accounting services.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Strategic Artist Growth",
-    text: "Our marketing tools help artists craft a roadmap to success, guiding their career to new heights.",
+    title: "Website Development",
+    text: "Build professional websites and digital platforms that elevate your online presence and support business growth.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -286,21 +291,22 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Amplify Your Sound",
-    text: "Leverage cutting-edge marketing strategies to maximize your audience, boost engagement, and make your music stand out in a crowded industry.",
+    title: "Digital Marketing",
+    text: "Boost your brand visibility through data-driven marketing campaigns, SEO, and social media management tailored for growth.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: 'Unlock New Opportunities',
-    text: "We provide artists with the tools to navigate the music industry, building momentum for long-term success.",
+    title: "Administrative Tasks",
+    text: "Outsource repetitive and time-consuming tasks such as scheduling, data entry, and documentation to maximize productivity.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
   },
 ];
+
 
 export const socials = [
   {
