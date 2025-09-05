@@ -44,7 +44,7 @@ navigate('/contact')
           <Button
             className="w-full mb-6"
            onClick={HandleNavigate}
-            white={!!item.price}
+            white={!item.price || !!item.price}
           >
             {item.price ? "Get started" : "Contact us"}
           </Button>

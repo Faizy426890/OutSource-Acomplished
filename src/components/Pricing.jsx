@@ -28,8 +28,8 @@ const Pricing = () => {
         </div>
 
         <Heading
-          tag="Get started with Brandblitz"
-          title="Your Music , Our strategy"
+          tag="Get started with OutSource Accomplished"
+          title="Your Bussiness , Our strategy"
         />
 
         <div className="relative">

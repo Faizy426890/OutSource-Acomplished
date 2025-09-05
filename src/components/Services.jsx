@@ -23,10 +23,10 @@ const Services = () => {
         />
 
         <div className="relative">
-          <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
+          <div className="relative z-1   flex items-center h-[39rem] mb-5 p-8 border border-n-1/30 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
             <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto">
               <img
-                className="w-full h-full object-cover md:object-right filter brightness-[40%]"
+                className="w-full h-full object-cover md:object-right filter brightness-[30%]"
                 width={800}
                 alt="BPO Services"
                 height={730}
@@ -58,7 +58,7 @@ const Services = () => {
               <div className="absolute inset-0">
                 <img
                   src="https://res.cloudinary.com/diml90c1y/image/upload/v1756964332/india-office-office-workers-people-working-young-crowd-in-office-5207408_urrqso.jpg"
-                  className="h-full w-full object-cover"
+                  className="h-full  filter brightness-[60%] w-full object-cover"
                   width={630}
                   height={750}
                   alt="BPO Team"
@@ -75,8 +75,8 @@ const Services = () => {
               <PhotoChatMessage />
             </div>
 
-            <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
-              <div className="py-12 px-4 xl:px-8">
+            <div className="p-4 rounded-3xl bg-gradient-to-b from-n-8/0 to-n-8/90 border-2   border-purple-500  overflow-hidden lg:min-h-[46rem]">
+              <div className="py-12 px-4 z-50 xl:px-8">
                 <h4 className="h4 mb-4">Back-Office Solutions</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
                   From data entry to finance and HR, we manage your operations so you can focus on growth.

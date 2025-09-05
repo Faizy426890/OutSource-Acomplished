@@ -7,7 +7,7 @@ const Footer = () => {
     <Section crosses className="!px-0 !py-10">
       <div className="container flex sm:justify-between justify-center items-center gap-10 max-sm:flex-col">
         <p className="caption text-n-4 lg:block">
-          www.brandblitz.xyz © 2024. All rights reserved.
+          www.OutSourceAccomplished.com © 2025. All rights reserved.
         </p>
 
         <ul className="flex gap-5 flex-wrap">

@@ -66,41 +66,45 @@ export const brainwaveServicesIcons = [
   Music3,
 ];
 
-export const roadmap = [
+export const roadmap = [ 
   {
-    id: "0",
-    title: "Developing Artists",
-    text: "Developing Artists..! We provide personalized strategies and resources to help emerging artists grow, refine their skills, and build a sustainable music career with long-term success in the industry.",
-    date: "May 2023",
-    status: "done",
-    imageUrl: roadmap1,
-    colorful: true,
-  },
-  {
-    id: "1",
-    title: "Grow Music",
-    text: "Elevate your sound and reach new heights with our tailored strategies and tools designed to amplify your music's impact and connect with a broader audience.",
-    date: "May 2023",
+    id: "3",
+    title: "Staffing Services",
+    text: "Reliable staffing solutions for therapy professionals in Dallas and Houston to support your healthcare teams.",
+    date: "2025",
     status: "progress",
-    imageUrl: roadmap2,
+    imageUrl: "https://res.cloudinary.com/diml90c1y/image/upload/v1757036029/portrait-3d-doctors-hospital-attire-removebg-preview_pihaox.png",
   },
-  {
+   {
     id: "2",
-    title: "Digital Marketing",
-    text: "Transform your brand with targeted strategies and data-driven insights that drive engagement, boost visibility, and achieve measurable results in the digital landscape",
-    date: "May 2023",
+    title: "Virtual Patient Care Coordinator",
+    text: "Providing dedicated virtual coordinators for Home Health Agencies across the US to manage scheduling, follow-ups, and patient care seamlessly.",
+    date: "2025",
     status: "done",
     imageUrl: roadmap3,
   },
-  {
-    id: "3",
-    title: "Targeted Campaigns",
-    text: "Reach your ideal audience with precision through customized marketing strategies that drive engagement, increase conversions, and maximize your campaign's effectiveness.",
-    date: "May 2023",
-    status: "progress",
-    imageUrl: guitar,
+ {
+    id: "4",
+    title: "Virtual Administration",
+    text: "Comprehensive administrative support across industries such as healthcare, telecom, and mortgage to streamline operations.",
+    date: "2025",
+    status: "planned",
+    imageUrl: roadmap1,
   },
+  {
+    id: "5",
+    title: "Accounting & Payroll",
+    text: "Efficient accounting and payroll solutions for businesses in any industry, ensuring compliance and accuracy.",
+    date: "2025",
+    status: "planned",
+    imageUrl: roadmap2,
+  },
+ 
+ 
+  
+  
 ];
+
 
 export const collabText =
   "Optimize your operations with OutSource Accomplished BPO, providing cost-effective outsourcing solutions to improve efficiency, reduce overhead, and drive business growth.";
@@ -183,76 +187,79 @@ export const collabApps = [
   },
 ];
 
-export const pricing = [
+export const pricing = [ 
+   {
+    id: "3",
+    title: "Virtual Patient Care Coordinator",
+    description: "Dedicated virtual patient care coordinators for Home Health Agencies across the US.",
+    price: "$2000",
+    features: [
+      "Appointment Scheduling",
+      "Patient Follow-ups",
+      "HIPAA-Compliant Communication",
+      "Virtual Assistance",
+    ],
+  },
+ 
   {
     id: "2",
-    title: "Instagram Fanbase ",
-    description: "Tailored Programs for Artist Growth and Success in 6 months",
-    price: "120",
+    title: "Digital Marketing",
+    description: "Boost your online presence with targeted digital marketing strategies.",
+    price: "$499",
     features: [
-      "Hashtag Research",
-      "Contnt Creation",
-      "Advance CTA Strategy",
+      "Social Media Campaigns",
+      "Search Engine Optimization (SEO)",
+      "Meta & Google Ads",
+      "Content Creation & Branding",
     ],
   }, 
-  {
+   {
     id: "1",
-    title: "Spotify Campaign ",
-    description: "Maximize Streams with Strategic Spotify Campaigns",
-    price: "250",
+    title: "Website Development",
+    description: "Professional, responsive, and chatbot-integrated websites for businesses.",
+    price: "$599",
     features: [
-      "2 Tracks Spotify campaign",
-      "Spotify Curation & Playlisting",
-      "35k+ Reach on Spotify",
-    ],
-  },
-  {
-    id: "2",
-    title: "Youtube Campaign ",
-    description: "Boost Your Brand with Targeted YouTube Campaigns",
-    price: "300",
-    features: [
-      "30 Days Youtube Campaign",
-      "Targeted Marketing/Engagement",
-      "Meta Ads and Youtube Ads",
-    ],
-  },
-  
-  {
-    id: "3",
-    title: "Website Creation",
-    description: "Build a Stunning Website for Your Brand",
-    price: "350",
-    features: [
-      "Custom Website Design",
+      "Custom Business Website",
       "Responsive Web Development",
+      "Integrated Chatbots",
       "SEO Optimization",
     ],
-  },  
+  }, 
   {
     id: "4",
-    title: "Shopify Store & EPK",
-    description: "Seamless Shopify Setup for Your Business",
-    price: "400",
+    title: "Staffing Services",
+    description: "Specialized therapy staffing solutions in Dallas and Houston.",
+    price: "",
     features: [
-      "Shopify Store Creation",
-      "Product Designing and listing",
-      "META Ads and Tiktok Ads",
+      "Qualified Therapy Staff",
+      "Flexible Scheduling",
+      "Coverage for PT, OT, ST",
     ],
-  },  
+  },
   {
     id: "5",
-    title: "Instagram Campaign",
-    description: "Create Impactful Instagram Campaigns for Success",
-    price: "180",
+    title: "Virtual Administration",
+    description: "Comprehensive administrative support for any industry including healthcare, telecom, and mortgage.",
+    price: "",
     features: [
-      "Organic Follower Campaign",
-      "Organic Engagment Campaign",
-      "Content creation / Reels and Posts",
+      "Back-office Support",
+      "Data Entry & Reporting",
+      "Virtual Assistance for Operations",
     ],
-  }, 
-
+  },
+  {
+    id: "6",
+    title: "Accounting & Payroll",
+    description: "Accurate and efficient accounting & payroll services for all industries.",
+    price: "",
+    features: [
+      "Payroll Management",
+      "Bookkeeping",
+      "Financial Reporting",
+    ],
+  },
 ];
+
 
 export const benefits = [
   {
@@ -265,8 +272,8 @@ export const benefits = [
   },
   {
     id: "1",
-    title: "HealthCare Outsourcing",
-    text: "Providing secure and reliable healthcare outsourcing solutions, from patient support to medical billing, with full compliance.",
+    title: "Virtual Patient Care Coordinator",
+    text: "Providing secure and reliable virtual care coordinator, from patient support to medical billing, with full compliance.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
