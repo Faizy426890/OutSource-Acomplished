@@ -38,10 +38,6 @@ const App = () => {
         />
         {/* Contact Us Route */}
         <Route path="/contact" element={<Contact />} /> 
-        <Route path="/results" element={<Results />} />  
-        <Route path="/about" element={<AboutUsPage/>} /> 
-        <Route path="/artist-development" element={<ArtistDevelopment/>} />  
-        <Route path="/our-work" element={<OurWork/>} />          
       </Routes>
       <ButtonGradient />
     </div>
