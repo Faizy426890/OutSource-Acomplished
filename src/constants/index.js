@@ -192,7 +192,7 @@ export const pricing = [
     id: "3",
     title: "Virtual Patient Care Coordinator",
     description: "Dedicated virtual patient care coordinators for Home Health Agencies across the US.",
-    price: "$2000",
+    price: "2000",
     features: [
       "Appointment Scheduling",
       "Patient Follow-ups",
@@ -205,7 +205,7 @@ export const pricing = [
     id: "2",
     title: "Digital Marketing",
     description: "Boost your online presence with targeted digital marketing strategies.",
-    price: "$499",
+    price: "499",
     features: [
       "Social Media Campaigns",
       "Search Engine Optimization (SEO)",
@@ -217,7 +217,7 @@ export const pricing = [
     id: "1",
     title: "Website Development",
     description: "Professional, responsive, and chatbot-integrated websites for businesses.",
-    price: "$599",
+    price: "599",
     features: [
       "Custom Business Website",
       "Responsive Web Development",
