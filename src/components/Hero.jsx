@@ -122,7 +122,7 @@ const Hero = () => {
             data-section="text"
           >
             <Zap className="w-4 h-4 text-blue-400" />
-            <span>Powering 10,000+ businesses worldwide</span>
+            <span>Powering 1000+ businesses worldwide</span>
           </div>
 
           {/* Main Headline */}
@@ -175,7 +175,7 @@ const Hero = () => {
 
         {/* Feature Cards */}
         <div
-          className={`grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto mb-20 transition-all duration-1000 delay-700 ${isVisible.cards ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}
+          className={`grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto mb-20 transition-all duration-1000 delay-700 ${isVisible.cards ? 'opacity-100 translate-y-0' : 'opacity-0 '}`}
           data-section="cards"
         >
           {[
@@ -197,7 +197,7 @@ const Hero = () => {
           ].map((card, index) => (
             <div
               key={index}
-              className="group relative bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-8 h-72 flex flex-col hover:bg-white/10 transition-all duration-500 hover:border-white/20 hover:scale-[1.02] hover:shadow-2xl hover:shadow-blue-500/10"
+              className="group relative bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-8 h-72 flex flex-col hover:bg-white/10 transition-all duration-500 hover:border-white/20  hover:shadow-2xl hover:shadow-blue-500/10"
               style={{
                 animationDelay: `${index * 200}ms`,
                 animation: isVisible.cards ? 'fadeIn 0.8s ease-out forwards' : 'none'
@@ -207,7 +207,7 @@ const Hero = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-white/5 via-transparent to-transparent rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               
               {/* Icon container with enhanced styling */}
-              <div className="relative mb-6 p-4 bg-gradient-to-br from-white/10 to-white/5 rounded-2xl inline-block group-hover:scale-110 group-hover:rotate-3 transition-all duration-500 shadow-lg">
+              <div className="relative mb-6 p-4 bg-gradient-to-br from-white/10 to-white/5 rounded-2xl inline-block group-hover:scale-110  transition-all duration-500 shadow-lg">
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 via-cyan-500/20 to-purple-500/20 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 {card.icon}
               </div>
@@ -256,7 +256,7 @@ const Hero = () => {
           </ScrollParallax>
         </div>
 
-        <CompanyLogos className="relative z-10 mt-20" />
+        {/* <CompanyLogos className="relative display-none  z-10 mt-20" /> */}
       </div>
 
       <BackgroundCircles />

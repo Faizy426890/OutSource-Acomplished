@@ -146,7 +146,7 @@ export const collabApps = [
   {
     id: "2",
     title: "insta",
-    icon: Insta,
+    icon: "https://res.cloudinary.com/diml90c1y/image/upload/v1757122641/visual-studio-code-logo-removebg-preview_vwcofe.png",
     width: 36,
     height: 28,
   },
@@ -174,7 +174,7 @@ export const collabApps = [
   {
     id: "6",
     title: "Youtube",
-    icon: "https://res.cloudinary.com/diml90c1y/image/upload/v1756965854/checklist-business-performance-monitoring-concept-600nw-2503514245_tlm5h0.webp",
+    icon: "https://res.cloudinary.com/diml90c1y/image/upload/v1757122822/RingCentral_icon-removebg-preview_wz3vkm.png",
     width: 26,
     height: 34,
   },
@@ -279,14 +279,15 @@ export const benefits = [
     imageUrl: benefitImage2,
     light: true,
   },
-  {
-    id: "2",
-    title: "Accounting & Payroll",
-    text: "Streamline your finance operations with accurate bookkeeping, payroll management, and compliance-driven accounting services.",
-    backgroundUrl: "./src/assets/benefits/card-3.svg",
-    iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
-  },
+ {
+  id: "2",
+  title: "Staffing Services for Therapy",
+  text: "With 500+ licensed therapists onboard and partnerships with over 250 home health agencies, we deliver reliable staffing solutions to cover patient cases on time.",
+  backgroundUrl: "./src/assets/benefits/card-3.svg",
+  iconUrl: benefitIcon3,
+  imageUrl: benefitImage2,
+},
+
   {
     id: "3",
     title: "Website Development",
@@ -296,12 +297,12 @@ export const benefits = [
     imageUrl: benefitImage2,
     light: true,
   },
-  {
-    id: "4",
-    title: "Digital Marketing",
-    text: "Boost your brand visibility through data-driven marketing campaigns, SEO, and social media management tailored for growth.",
-    backgroundUrl: "./src/assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
+ {
+    id: "2",
+    title: "Accounting & Payroll",
+    text: "Streamline your finance operations with accurate bookkeeping, payroll management, and compliance-driven accounting services.",
+    backgroundUrl: "./src/assets/benefits/card-3.svg",
+    iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
